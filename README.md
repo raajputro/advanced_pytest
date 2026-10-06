@@ -51,6 +51,10 @@ pytest --mock-site                      # offline replica (if the live site is d
 pytest --count=20                       # repeat every scenario 20 times
 pytest --count=20 -n 4                  # ...across 4 parallel browsers
 pytest --count=20 -x                    # stop at the first failure
+# report by name
+pytest --count=20 -n 4 --html="report_20_times_4_threads"  
+pytest -n 4 --html="report_4_threads"   
+pytest --html="report"
 ```
 Outputs:
 - `screenshots/` – step-6 screenshots (timestamped)

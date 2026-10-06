@@ -23,3 +23,4 @@ Feature: Customer deposit on XYZ Bank
       | customer         | account | amount |
       | Harry Potter     | 1004    | 500    |
       | Hermoine Granger | 1001    | 1500   |
+      
