@@ -7,3 +7,8 @@ pytest-html>=4.0
 pytest-repeat>=0.9
 pytest-xdist>=3.5
 #################################
+psycopg2-binary
+pymongo
+pyodbc
+#################################
+python-dotenv
