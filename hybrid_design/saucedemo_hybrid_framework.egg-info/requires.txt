@@ -1,0 +1,9 @@
+playwright<2,>=1.50
+pytest<10,>=8
+pytest-asyncio<2,>=0.24
+
+[html]
+pytest-html<5,>=4
+
+[parallel]
+pytest-xdist<5,>=3
