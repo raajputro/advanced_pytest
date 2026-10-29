@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: saucedemo-hybrid-framework
+Version: 0.1.0
+Requires-Python: >=3.10
+Requires-Dist: playwright<2,>=1.50
+Requires-Dist: pytest<10,>=8
+Requires-Dist: pytest-asyncio<2,>=0.24
+Provides-Extra: parallel
+Requires-Dist: pytest-xdist<5,>=3; extra == "parallel"
+Provides-Extra: html
+Requires-Dist: pytest-html<5,>=4; extra == "html"
